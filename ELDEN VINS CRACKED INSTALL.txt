@@ -1,0 +1,44 @@
+--Elden Vins Cracked Installation--
+Mods: 	https://www.nexusmods.com/eldenring/mods/4709 	#Vins
+	https://www.nexusmods.com/eldenring/mods/510 	#Seamless
+
+Steps-
+#What everyone (even paid owners) must do
+1. Installing Vins:
+	Extract the .zip anywhere and follow the readme.txt that is provided with Vins.
+2. Adding Seamless:
+	- Take the SeamlessCoop folder and move it into the "ELDEN VINS" folder.
+	- Right click on config_eldenring.toml and select "Edit with Notepad".
+	- You should edit the external_dlls section to match this:
+# external_dlls = [ "coolmod.dll", "D:\\nicemods\\nicemod.dll", "sosofolder\sosomod.dll" ]
+external_dlls = [
+	"SeamlessCoop//ersc.dll",
+	"mod//dll//Scripts-Data-Exposer-FS.dll",
+	"mod//dll//eldenring_covenant_slot.dll",
+	"mod//dll//ErdTools.dll",
+	"mod//dll//ERSkeletonMan_Agheel.dll",
+	"mod//dll//ERSkeletonMan_Alecto.dll",
+	"mod//dll//ERSkeletonMan_Faurtis.dll"
+]
+	- Save the changes
+#Paid owners can just use "Launch ELDEN VINS.bat" to play
+#Now for the pirated owners
+3. Making it look like you have ELDEN RING on steam
+	i. Moving files:
+		- Go to Steam\steamapps\common
+		- Create a new folder and name it "ELDEN RING"
+		- Move the "Game" folder from the pirated installation into this new folder.
+	ii. Creating fake manifest:
+		- Go back to Steam\steamapps
+		Note: hopefully you have installed even one steam game before, you need to make a copy of any one of the files that are named "appmanifest_" and then some random numbers.
+		- Make a copy of a manifest and rename it to "appmanifest_1245620"
+		- Right click on it and select edit in Notepad
+		- Change these specifically
+	"appid"		"1245620"
+	"name"		"ELDEN RING"
+	"installdir"		"ELDEN RING"
+		- Save the changes
+
+You SHOULD be done by now. Launch using "Launch ELDEN VINS.bat" and have some patience; It may take a bit to launch, but that might depend on the pc.
+NOTE: If the game doesn't run after all this, try moving all the contents of "ELDEN VINS" folder into the "Game" folder aswell.
+NOTE: If an error pops up and the window name is of the FOV mod, it's fine. The game will run afterward.
