@@ -1,0 +1,23 @@
+--Vins Nightreign Installation--
+Download:
+Mod: 	https://www.nexusmods.com/eldenringnightreign/mods/287 	#Vins Nightreign
+	https://github.com/garyttierney/me3			#Mod Engine 3
+	https://www.nexusmods.com/eldenringnightreign/mods/213 	#ME3 Manager
+
+#Using ME3 the point to pirated copy
+1. Launch ME3 manager
+2. Create new profile, create a new folder (DON'T SELECT PREEXISTING) and give any name (both folder and profile)
+3. Configure profile settings (enable use of custom save name etc.)
+4. Configure game settings (Enable custom executable path and show it to your nightreign.exe, also feel free to change other settings)
+#Adding Seamless Coop
+5. Click on dll icon (4th from left); find nrsc.dll (inside seamless coop folder) and click open
+6. Now nrsc will appear in the modlist of the manager, click on ITS advanced options, go to the advanced tab and enable load early
+#Addng Elden Vins
+7. Click on the folder icon (right next to profile settings)
+8. In another window, go inside your elden vins .zip, goto "ELDEN VINS NIGHTREIGN". 
+9. Select the "mod" folder and the OPEN-THIS-TO-INSTALL-SKINS file and extract it to the place in step 7
+10. run the OPEN-THIS-TO-INSTALL-SKINS file
+
+NOTE: MAKE SURE TO ENABLE THE MODS BEFORE RUNNING.
+If done correctly, your manager menu with your new profile selected should show 2 mods, "nrsc" and "mod".
+Then just launch using the button provided in the manager.
