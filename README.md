@@ -1,1 +1,1 @@
-Click on the .txt file to preview them
+Click on the .txt files to preview them
